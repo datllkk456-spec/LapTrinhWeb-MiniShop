@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng - MiniShop</title>
+</head>
+<body>
+    <header>
+        <h1>MiniShop</h1>
+        <nav>
+            <a href="index.html">Trang chủ</a> |
+            <a href="about.html">Giới thiệu</a> |
+            <a href="product.html">Sản phẩm</a> |
+            <a href="cart.html">Giỏ hàng</a> |
+            <a href="login.html">Đăng nhập</a> |
+            <a href="register.html">Đăng ký</a> |
+            <a href="contact.html">Liên hệ</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <h2>Giỏ hàng của bạn</h2>
+
+        <form action="#" method="post">
+            <table class="cart-table" border="1" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Đơn giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Chuột không dây M1</td>
+                        <td>250.000 VNĐ</td>
+                        <td>
+                            <input type="number" name="quantity_m1" min="1" value="1" required>
+                        </td>
+                        <td>250.000 VNĐ</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bàn phím cơ K2</td>
+                        <td>790.000 VNĐ</td>
+                        <td>
+                            <input type="number" name="quantity_k2" min="1" value="1" required>
+                        </td>
+                        <td>790.000 VNĐ</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th colspan="3">Tổng tiền</th>
+                        <td><strong>1.040.000 VNĐ</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <p>
+                <button type="submit">Đặt hàng</button>
+            </p>
+        </form>
+    </main>
+
+    <hr>
+    <footer>
+        <p>&copy; 2026 MiniShop. Dự án thực hành lập trình web.</p>
+    </footer>
+</body>
+</html>

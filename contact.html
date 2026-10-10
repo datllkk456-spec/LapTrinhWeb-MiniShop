@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - MiniShop</title>
+</head>
+<body>
+    <header>
+        <h1>MiniShop</h1>
+        <nav>
+            <a href="index.html">Trang chủ</a> |
+            <a href="about.html">Giới thiệu</a> |
+            <a href="product.html">Sản phẩm</a> |
+            <a href="cart.html">Giỏ hàng</a> |
+            <a href="login.html">Đăng nhập</a> |
+            <a href="register.html">Đăng ký</a> |
+            <a href="contact.html">Liên hệ</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <h2>Liên hệ với MiniShop</h2>
+
+        <form action="#" method="post">
+            <p>
+                <label for="fullname">Họ và tên:</label><br>
+                <input type="text" id="fullname" name="fullname"
+                       placeholder="Nhập họ và tên"
+                       maxlength="100" required>
+            </p>
+
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"
+                       placeholder="Nhập email" required>
+            </p>
+
+            <p>
+                <label for="subject">Tiêu đề:</label><br>
+                <input type="text" id="subject" name="subject"
+                       placeholder="Nhập tiêu đề"
+                       maxlength="150" required>
+            </p>
+
+            <p>
+                <label for="content">Nội dung:</label><br>
+                <textarea id="content" name="content"
+                          rows="5" cols="40"
+                          placeholder="Nhập nội dung liên hệ"
+                          maxlength="1000" required></textarea>
+            </p>
+
+            <button type="submit">Gửi</button>
+        </form>
+    </main>
+
+    <hr>
+    <footer>
+        <p>&copy; 2026 MiniShop. Dự án thực hành lập trình web.</p>
+    </footer>
+</body>
+</html>
